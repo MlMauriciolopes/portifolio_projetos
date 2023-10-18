@@ -21,7 +21,9 @@ section, summary, time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+  background-color: #a3a0a0;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -128,10 +130,11 @@ em, i {
   font-style: italic; }
 
 p {
-  margin: 0 0 2em 0; }
+  margin: 0 0 2em 0;
+  color: #07121c }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #3d4449;
+  color: #141414;
   font-family: "Roboto Slab", serif;
   font-weight: 700;
   line-height: 1.5;
@@ -227,6 +230,10 @@ hr {
 
 .align-right {
   text-align: right; }
+
+ul li {
+  color: #121111;
+}
 
 /* Row */
 .row {
